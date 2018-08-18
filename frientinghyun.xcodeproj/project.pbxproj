@@ -18,9 +18,11 @@
 		760AEFE6211F163B003F8B14 /* TutorialContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE1211F163B003F8B14 /* TutorialContentViewController.swift */; };
 		760AEFE7211F163B003F8B14 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE2211F163B003F8B14 /* TutorialPageViewController.swift */; };
 		760AEFE8211F163B003F8B14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE3211F163B003F8B14 /* AppDelegate.swift */; };
-		760AEFE9211F163B003F8B14 /* initialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE4211F163B003F8B14 /* initialViewController.swift */; };
+		760AEFE9211F163B003F8B14 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE4211F163B003F8B14 /* InitialViewController.swift */; };
 		760AEFEC211F1716003F8B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760AEFEA211F1715003F8B14 /* Assets.xcassets */; };
 		760AEFED211F1716003F8B14 /* mainImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760AEFEB211F1716003F8B14 /* mainImages.xcassets */; };
+		760AEFEF21280075003F8B14 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFEE21280075003F8B14 /* MainViewController.swift */; };
+		760AEFF12128059E003F8B14 /* RecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFF02128059E003F8B14 /* RecruitViewController.swift */; };
 		94E99B6A1850CA4A5753378A /* Pods_frientinghyunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45173C9BBF04EF872E2BCC0 /* Pods_frientinghyunTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,9 +63,11 @@
 		760AEFE1211F163B003F8B14 /* TutorialContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialContentViewController.swift; path = ../../../../tutorial/tutorial/Frienting/TutorialContentViewController.swift; sourceTree = "<group>"; };
 		760AEFE2211F163B003F8B14 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialPageViewController.swift; path = ../../../../tutorial/tutorial/Frienting/TutorialPageViewController.swift; sourceTree = "<group>"; };
 		760AEFE3211F163B003F8B14 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../tutorial/tutorial/Frienting/AppDelegate.swift; sourceTree = "<group>"; };
-		760AEFE4211F163B003F8B14 /* initialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = initialViewController.swift; path = ../../../../tutorial/tutorial/Frienting/initialViewController.swift; sourceTree = "<group>"; };
+		760AEFE4211F163B003F8B14 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialViewController.swift; path = ../../../../tutorial/tutorial/Frienting/InitialViewController.swift; sourceTree = "<group>"; };
 		760AEFEA211F1715003F8B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../tutorial/tutorial/Frienting/Assets.xcassets; sourceTree = "<group>"; };
 		760AEFEB211F1716003F8B14 /* mainImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = mainImages.xcassets; path = "../../../frienting-1/frientinghyun/Resources/mainImages.xcassets"; sourceTree = "<group>"; };
+		760AEFEE21280075003F8B14 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		760AEFF02128059E003F8B14 /* RecruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitViewController.swift; sourceTree = "<group>"; };
 		A86C787C83A6E3DAAC6551F0 /* Pods-frientinghyun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-frientinghyun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-frientinghyun/Pods-frientinghyun.debug.xcconfig"; sourceTree = "<group>"; };
 		B45173C9BBF04EF872E2BCC0 /* Pods_frientinghyunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_frientinghyunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -123,11 +127,13 @@
 			isa = PBXGroup;
 			children = (
 				760AEFE3211F163B003F8B14 /* AppDelegate.swift */,
-				760AEFE4211F163B003F8B14 /* initialViewController.swift */,
+				760AEFE4211F163B003F8B14 /* InitialViewController.swift */,
 				760AEFE0211F163B003F8B14 /* PageContentController.swift */,
 				760AEFE1211F163B003F8B14 /* TutorialContentViewController.swift */,
 				760AEFE2211F163B003F8B14 /* TutorialPageViewController.swift */,
 				5E9F326B20F5CED5003D551A /* ViewController.swift */,
+				760AEFEE21280075003F8B14 /* MainViewController.swift */,
+				760AEFF02128059E003F8B14 /* RecruitViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -415,7 +421,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				760AEFE8211F163B003F8B14 /* AppDelegate.swift in Sources */,
-				760AEFE9211F163B003F8B14 /* initialViewController.swift in Sources */,
+				760AEFE9211F163B003F8B14 /* InitialViewController.swift in Sources */,
+				760AEFEF21280075003F8B14 /* MainViewController.swift in Sources */,
+				760AEFF12128059E003F8B14 /* RecruitViewController.swift in Sources */,
 				760AEFE6211F163B003F8B14 /* TutorialContentViewController.swift in Sources */,
 				760AEFE7211F163B003F8B14 /* TutorialPageViewController.swift in Sources */,
 				5E9F326C20F5CED5003D551A /* ViewController.swift in Sources */,
